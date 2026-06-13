@@ -1,0 +1,11 @@
+# Karate
+karate/target/
+
+# Playwright
+playwright/node_modules/
+playwright/playwright-report/
+playwright/test-results/
+playwright/.playwright/
+
+# Mac
+.DS_Store
