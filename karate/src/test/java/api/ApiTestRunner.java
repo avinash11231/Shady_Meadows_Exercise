@@ -1,4 +1,4 @@
-package test.java.api;
+package api;
 
 import com.intuit.karate.junit5.Karate;
 
