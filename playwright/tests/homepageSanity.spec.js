@@ -21,7 +21,7 @@ test.describe('Homepage Sanity', () => {
         await homePage.navigate();
 
         const count = await homePage.getBookNowCount();
-        console.log(`Found ${count} "Book now" link(s) on homepage`);
+        console.log(`Found ${count} "Book now" links on homepage`);
         expect(count).toBeGreaterThan(0);
     });
 
