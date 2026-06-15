@@ -132,12 +132,9 @@ Next.js frontend which proxies all API traffic through `/api/`, so the correct
 paths are `/api/branding`, `/api/room`, and `/api/booking`. The tests have been
 updated to reflect the actual live paths.
 
-**2. Booking date conflicts on shared environment**
-The platform resets its data every 10 minutes, but between resets the shared
-environment can fill up with bookings made by other users running their own
-tests. Using static future dates caused intermittent 409 Conflict errors.
-The booking test now generates random dates at runtime to minimise the chance
-of clashes.
+**2. Ameneties header link does not navigate to Ameneties page**
+Clicking “Amenities” does nothing; the page content does not change or scroll.
+
 
 ---
 
